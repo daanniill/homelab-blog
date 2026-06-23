@@ -1,10 +1,10 @@
 [
   {
-    "slug": "building-my-first-homelab",
-    "title": "Building My First Homelab",
+    "slug": "week-1-homelab-setup",
+    "title": "Week 1: Homelab Setup",
     "date": "2026-06-23",
     "summary": "How I started a two-node Proxmox homelab using a Dell R210, Dell R220, and a managed network switch.",
     "tags": ["Proxmox", "Dell R220", "Networking"],
-    "file": "building-my-first-homelab.md"
+    "file": "week_1_homelab_setup.md"
   }
 ]
