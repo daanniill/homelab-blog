@@ -20,13 +20,13 @@ My homelab started with two inexpensive enterprise servers I found on Facebook M
 - Netgear GS305E managed switch ($20)
 - 24 GB DDR3 of RAM from AliExpress ($50)
 
-[current_setup](/Users/daniil/Desktop/personal_projects/homelab-blog/images/cur_setup.jpeg)
+![current_setup](/Users/daniil/Desktop/personal_projects/homelab-blog/images/cur_setup.jpeg)
 
 
 I initially wanted to just get the dell r220, but the r210 that I saw on marketplace provided some cool donor parts such as rails and bezels that I just couldn't pass up on. The r220 initially came with 16 GB of ram and the r210 came with 12 GB, so I decided to invest in three 8 GB sticks from AliExpress, as I knew that sufficient memory would be something that would be vey useful for some of the initial plans that I had for my homelab, such as web hosting and game servers. 
 
-[r210](/Users/daniil/Desktop/personal_projects/homelab-blog/images/r210.jpg)
-[r220](/Users/daniil/Desktop/personal_projects/homelab-blog/images/r220.jpg)
+![r210](/Users/daniil/Desktop/personal_projects/homelab-blog/images/r210.jpg)
+![r220](/Users/daniil/Desktop/personal_projects/homelab-blog/images/r220.jpg)
 
 I also wanted to create a cluster, so having at least two machines would allow me to learn how to balance multiple nodes in a network and also allow for redundancy in my network.
 
@@ -34,7 +34,7 @@ I also wanted to create a cluster, so having at least two machines would allow m
 
 The first significant issue I ran into was storage. The R210 did not come with any drive cages, which meant I had no proper way to mount the SSDs and hard drives I planned to use. Looking online, r210 drive cages were as rare as antimatter, and the ones that I was able to find on ebay were all $30+, a price I was not willing to pay especially considering the whole server cost me $20. So rather than buying the drive cages, I found some designs online and contracted my cousing to 3D print a custom mount that could hold 3 standard 2.5-inch SSDs. 
 
-[ssd_tray](/Users/daniil/Desktop/personal_projects/homelab-blog/images/ssd_tray_r210.jpeg)
+![ssd_tray](/Users/daniil/Desktop/personal_projects/homelab-blog/images/ssd_tray_r210.jpeg)
 
 My power-management situation was also nearly nonexistent. At first, both servers, the switch, and the surrounding equipment were connected through a messy collection of cables and outlets. It quickly became clear that this was neither organized nor particularly safe. I redid the wiring and purchased a surge protector for around $20 so that the equipment would have at least some basic protection and the setup would be easier to manage.
 
@@ -50,17 +50,17 @@ By the time I had both servers powered, connected, and ready for Proxmox, my tot
 
 Hardware and Equipment
 
-Dell PowerEdge R210 — $20
-Dell PowerEdge R220 — $50
-Netgear GS305E managed switch — $20
-24 GB of DDR3 RAM from AliExpress — $50
-Surge protectors and power-management supplies — $20
-Monitor and VGA cable from Goodwill — $12
-Custom 3D-printed SSD caddy for the R210 — $0
-128 GB SSD for the R210 Proxmox boot drive — $0
-825 GB SATA drive — $0
-1 TB SATA drive — $0
-Rails and bezels included with the R210 — $0
+- Dell PowerEdge R210 — $20
+- Dell PowerEdge R220 — $50
+- Netgear GS305E managed switch — $20
+- 24 GB of DDR3 RAM from AliExpress — $50
+- Surge protectors and power-management supplies — $20
+- Monitor and VGA cable from Goodwill — $12
+- Custom 3D-printed SSD caddy for the R210 — $0
+- 128 GB SSD for the R210 Proxmox boot drive — $0
+- 825 GB SATA drive — $0
+- 1 TB SATA drive — $0
+- Rails and bezels included with the R210 — $0
 
 Total: $172
 
